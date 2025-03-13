@@ -1,0 +1,47 @@
+* {
+    margin: 5px;
+    
+  }
+
+  
+  body {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+
+  }
+
+
+.yoo{
+    object-position: 10px;
+    position: relative;
+    left: 20px;
+    width:150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid black;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5);
+  }
+  
+.tabla {
+    border: 2px solid black;
+}
+
+.certi {
+    width: 200px;
+    margin-top: 10px;
+    margin-left: 15px;
+    border: 2px solid black;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5);
+
+  }
+
+.certi2 {
+    width: 200px;
+    display: flex;
+    margin-top: 10px;
+    margin-left: 15px;
+    border: 2px solid black;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5);
+
+}

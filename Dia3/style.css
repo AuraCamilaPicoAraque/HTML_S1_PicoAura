@@ -45,3 +45,38 @@
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5);
 
 }
+
+
+.tabla {
+
+  border: 7px solid black;
+}
+
+.informacionAca {
+  vertical-align: top;
+  border: 2.4px solid black;
+}
+
+
+.habilidades {
+  vertical-align: top;
+  border: 2.4px solid black;
+
+}
+
+
+.ProyectoPer {
+  vertical-align: top;
+  border: 2.4px solid black;
+}
+
+
+.InforPer {
+  vertical-align: top;
+  border: 2.4px solid #000000;
+}
+
+.certificado {
+  vertical-align: top;
+  border: 2.4px solid black;
+}

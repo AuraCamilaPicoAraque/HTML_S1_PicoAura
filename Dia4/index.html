@@ -1,0 +1,97 @@
+<!-- Ejercicio Dia 3-->
+
+
+
+<html>
+<head>
+    <title>Formulacion de registro - Mi web</title> 
+    <link rel="stylesheet" href="./style.css"/>
+</head>
+<body>
+
+
+<div class="cuadrodeformulario">
+
+    <!-- FORMULARIOS-->
+        <!-- Son los mecanismos utilizados para que el usuario final envie informacion, atravez de unos campos visuales-->
+        <form 
+        name="formularioInscripcion" method="post" action="./pagina2.html">
+<!-- -------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+
+        <!-- TITULO -->
+
+        <h1>Formulacion de registro - Mi web</h1> <br>
+
+        <!-- ELEMENTO INPUT-->
+
+<!-- -------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+    <!-- -->
+            <!-- NOMBRE Y APELLIDO -->
+
+    <label for="Nombres">Nombres:  </label>       <input class="Nombres" type="text" name="Nombre" placeholder="Nombres" required maxlength="50" /> <br><br>
+    <label for="Apellidos">Apellidos:  </label>       <input class="Apellidos" type="text" name="Apellidos" placeholder="Apellidos" required maxlength="50" /> <br><br>
+
+<!-- ---------------------------------------------------------------------------------------------------------------------------------------------------------  -->
+    <!-- para ser opciones de seleccion utilizamos el siguiente comando -->
+    <!-- GENERO -->
+
+    <label for="Generos">Genero: </label>     <select name="Generos" class="genero">
+                                                  <option  selected="0" disabled>Elige una opcion</option>
+                                                  <option value="1">Femenino</option>
+                                                  <option value="2">Masculino</option>
+                                              </select>  <br><br>
+<!-- -----------------------------------------------------------------------------------------------------------------------------------------------------------  -->
+
+    <!-- CORREO -->
+    <label for="email">Gmail: </label>       <input class="correo" type="email" name="email" placeholder="correo" required/>  <br><br>    
+
+
+
+    <!-- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  -->
+
+        <!-- POBLACION -->
+        <label for="Poblacion">Elije la poblacion: </label>
+
+
+    <select name="Poblacion" class="poblacion">
+        <option  selected="0" disabled>Elige una poblacion</option>
+        <option value="1">Bucaramanga</option>
+        <option value="2">Giron</option>
+        <option value="2">Floridablanca </option>
+        <option value="2">Piedecuesta</option>
+    </select>  <br><br><br>
+
+
+
+    <!-- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  -->
+    <!-- -----------------  -->
+
+    <!-- CASILLA DE VERIFICACION -->
+    <input class="casillaverificacion" type="checkbox" id="verificacion" name="verificacion" checked/>     <label for="verificacion">  Deseo recibir informacion sobre novedades y ofertas.  </label> <br><br>
+    <input class="condiciones" type="checkbox" id="condiciones" name="condiciones" required/>              <label for="condiciones">  Declaro haber leído y aceptar las condiciones <p>generales del programa y la normativa sobre protección de datos.</p> </label> <br><br>
+ 
+    <!--  ---------------- -->
+
+    <!-- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  -->
+        <!-- DESCRIPCION -->
+
+        <textarea name="descripcion" id="descripcion" placeholder="Ingresa una descripcion:" rows="10" cols="96"></textarea> <br><br>
+
+
+        <!-- -->
+        <input class="enviar" type="submit" value="Enviar"/>
+
+    </form>
+    
+
+
+</div>
+
+
+
+    </body>
+</html>
+
+
+
+<!-- Desarrollado por : AuraCamilaPicoAraque - C.C:1097498480 -->

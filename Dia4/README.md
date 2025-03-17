@@ -5,8 +5,11 @@ Este proyecto es un ejercicio de **HTML y CSS** enfocado en la creación de un f
 ##  Tabla de Contenido  
 |índice|Nombre|descripcion
 |-|-|-|
-|1| Index.html|Contiene la estructura del formulario de registro.
-|2| style.css |Aplica los estilos y efectos visuales del formulario.
+|1| [index.html](https://github.com/AuraCamilaPicoAraque/HTML_S1_PicoAura/blob/master/Dia4/index.html )|Contiene la estructura del formulario de registro.
+|2| [style.css](https://github.com/AuraCamilaPicoAraque/HTML_S1_PicoAura/blob/master/Dia4/style.css)|Aplica los estilos y efectos visuales del formulario.
+|3| [pagina2.html](https://github.com/AuraCamilaPicoAraque/HTML_S1_PicoAura/blob/master/Dia4/pagina2.html "pagina2.html")|Pagina que lo redirige después de hacer el formulario. 
+
+
 
 
 
@@ -30,6 +33,7 @@ La carpeta contiene los siguientes archivos:
 
 - `index.html` → Contiene la estructura del formulario.  
 - `style.css` → Aplica estilos y efectos visuales.  
+- `pagina2.css`→ Pagina que lo redirige después del formulario.
 - `README.md` → Documento de referencia con información del proyecto.  
 
 ##  Utilizadas  
@@ -48,6 +52,7 @@ La carpeta contiene los siguientes archivos:
 - Mejorar el diseño para dispositivos móviles con **media queries**.  
 - Implementar una base de datos para almacenar los registros enviados.  
 
-Hecho por [yo](https://github.com/AuraCamilaPicoAraque)
 
 ---
+
+Hecho por [yo](https://github.com/AuraCamilaPicoAraque)

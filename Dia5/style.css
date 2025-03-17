@@ -1,0 +1,428 @@
+/* Ejercicio Dia 4 */
+
+
+* {
+    margin: 10px;
+
+}
+
+body {
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.fondonegro {
+
+    position: absolute;
+    position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+    top: 0px;
+    left: 2px;
+    width: 1918px;
+    height: 4149px;
+}
+
+
+.fondo {
+    position: absolute;
+    
+    top: 0px;
+    left: 0px;
+    width: 1920px;
+    height: 1080px;
+    opacity: 15;    
+}
+
+.logoprime {
+    position: absolute;
+    top: 227px;
+    left: 682px;
+    width: 556px;
+    height: 313px;
+}
+
+.search {
+    position: absolute;
+    top: 37px;
+    left: 63px;
+    width: 36px;
+    height: 36px;
+
+}
+
+
+.logi {
+
+    position: absolute;
+    top: 30px;
+    left: 1695px;
+    width: 205px;
+    height: 54px;
+
+}
+
+.blanco {
+    position: absolute;
+    top: 755px;
+    left: 730px;
+    width: 458px;
+    height: 104px;
+
+}
+
+.azul {
+    position: absolute;
+    top: 1106px;
+    left: 64px;
+    width: 1792px;
+    height: 567px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+.azul2 {
+    position: absolute;
+    top: 1717px;
+    left: 64px;
+    width: 1792px;
+    height: 724px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+/*  PELIS */
+
+.peli1 {
+
+    position: absolute;
+    top: 1896px;
+    left: 477px;
+    width: 181px;
+    height: 309px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+
+.peli2 {
+
+    position: absolute;
+    top: 1896px;
+    left: 670px;
+    width: 181px;
+    height: 309px;
+}
+ 
+.peli3 {
+
+    position: absolute;
+    top: 1896px;
+    left: 863px;
+    width: 180px;
+    height: 309px;
+}
+
+
+.peli4 {
+
+    position: absolute;
+    top: 1896px;
+    left: 1055px;
+    width: 181px;
+    height: 309px;
+
+}
+
+
+.peli5 {
+
+    position: absolute;
+    top: 1896px;
+    left: 1248px;
+    width: 181px;
+    height: 309px;
+
+}
+
+
+
+
+
+/*  ------------------------------ */
+
+
+.tecerbloque {
+
+    position: absolute;
+    top: 2467px;
+    left: 64px;
+    width: 1792px;
+    height: 567px;
+
+}
+
+.iconcancel {
+
+    position: absolute;
+    top: 2650px;
+    left: 876px;
+    width: 169px;
+    height: 169px;
+
+}
+
+
+/* Negro */
+
+.windows {
+
+    position: absolute;
+    top: 3555px;
+    left: 685px;
+    width: 584px;
+    height: 534px;
+
+}
+
+
+.window {
+
+    position: absolute;
+    top: 3699px;
+    left: 1280px;
+    width: 271px;
+    height: 238px;
+
+}
+
+
+.iphone {
+
+    position: absolute;
+    top: 3721px;
+    left: 400px;
+    width: 256px;
+    height: 219px;
+
+}
+
+
+.flecha {
+
+    position: absolute;
+    top: 3777px;
+    left: 305px;
+    height: 19px;
+    height: 27px;
+}
+
+
+.flecha2 {
+
+    position: absolute;
+    transform:rotate(180deg);
+    
+    top: 3784px;
+    left: 1585px;
+    width: 18px;
+    height: 26px;
+}
+
+.letrasalfinal {
+
+    position: absolute;
+    top: 4088px;
+    left: 543px;
+    width: 831px;
+    height: 25px;
+
+
+
+}
+
+/* --------------------------------------------------------------------------------------------- */
+
+
+/* TIPOGRAFIAS */
+
+
+
+@font-face {
+    font-family: Amazon Ember , Light ;
+    src: url(./tipografia/AmazonEmber_Lt.ttf) format(truetype);
+
+}
+
+@font-face { 
+    font-family: Amazon Ember , bold ;
+    src: url(./tipografia/Bookerly-Bold.ttf) format(truetype); 
+
+}
+
+
+/*  TEXTOS DE TODO EL CONTENIDO */
+
+.h2 {
+    font-family: Amazon Ember , bold ;
+    font-size: 60px;
+    color: white;
+    position: absolute;
+    top: 517px;
+    left: 389px;
+
+    white-space: nowrap;
+}
+
+
+h3 {
+    font-family: Amazon Ember , Light ;
+    font-size: 36px;
+    color: rgb(68, 68, 68);
+    position: absolute;
+    top: 782px;
+    left: 800px;
+    width: 360px;
+    height: 40px;
+    white-space: nowrap;
+
+}
+
+h4 {
+    font-family: Amazon Ember , Light ;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 44.1px;
+    left: 1773px;
+    width: 50px;
+    height: 20px;
+
+    white-space: nowrap;
+
+
+}
+
+
+
+pre {
+
+    font-family: Amazon Ember , Light;
+    position: absolute;
+    top: 608px;
+    left: 380px;
+
+    color: white;
+    font-size: 30px;
+}
+
+
+.espacioazul  {
+    font-family: Amazon Ember , bold ;
+    position: absolute;
+
+    top: 1773px;
+    left: 200px;
+    width: 1664px;
+
+    color: white;
+    text-align: left;
+    font-size: 60px;
+
+}
+
+
+.pelis {
+
+    font-family: Amazon Ember , Light;
+    position: absolute;
+
+    top: 2286px;
+    left: 190px;
+    width: 1492px;
+    height: 110px;
+
+    color: white;
+    text-align: center;
+    font-size: 47px;
+
+}
+
+
+
+h1 {
+
+    font-family: Amazon Ember , bold ;
+    position: absolute;
+
+    top: 2546px;
+    left: 560px;
+    width: 800px;
+    height: 60px;
+
+    color: white;
+    text-align: center;
+    font-size: 60px;
+
+}
+
+.textoabajodelcancel {
+
+    font-family: Amazon Ember , Light;
+    position: absolute;
+
+    top: 2881px;
+    left: 269px;
+    width: 1382px;
+    height: 88px;
+
+    color: white;
+    text-align: center;
+    font-size: 40px;
+
+
+}
+
+
+.afueranegro {
+
+    font-family: Amazon Ember , Light;
+    position: absolute;
+
+    top: 3127px;
+    left: 418px;
+    width: 1118px;
+    height: 125px;
+
+    color: white;
+    text-align: center;
+    font-size: 125px;
+
+}
+
+
+.negroabajodetexto  {
+
+    font-family: Amazon Ember , Light;
+    position: absolute;
+
+    top: 3296px;
+    left: 100px;
+    width: 1544px;
+    height: 99px;
+    
+    color: white;
+    text-align: center;
+    font-size: 45px;
+}
+
+/* Desarrollado por : AuraCamilaPicoAraque - C.C:1097498480 */

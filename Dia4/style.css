@@ -5,12 +5,9 @@
 
 
 body {
-    background-color: rgba(255, 255, 255, 0);
     display: flex;
     justify-content: center;
-    font-family:sans-serif;  
-    
-
+    font-family:sans-serif; 
   }
 
 /* este para editar lo que seria el formulario :D */

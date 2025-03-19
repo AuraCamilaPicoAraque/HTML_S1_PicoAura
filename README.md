@@ -1,59 +1,82 @@
 
-# HTML- CSS 
+# 🚍 Tarjeta MetroLínea - TransMilenio  
 
-Practica para el manejo y desarrollo de la programacion con html y css.
-Aqui desempeñaremos las habilidades basicas.
+Este proyecto es una simulación visual del sistema de tarjetas de **MetroLínea/TransMilenio**. Se han utilizado **HTML y CSS** para crear una interfaz interactiva donde los usuarios pueden visualizar su saldo y comprar tarjetas de transporte.  
 
-## Dias de desempeño
+##  Tabla de Contenido  
+ 
 
-| Indice | Titulo  |Informacion|
+| Indice | Titulo |Informacion|
+
 |--|--|--|
-| 1 | [Dia1](https://github.com/AuraCamilaPicoAraque/HTML_S1_PicoAura/tree/master/Dia1 )|Seccion 1|
-| 2 | [Dia2](https://github.com/AuraCamilaPicoAraque/HTML_S1_PicoAura/tree/master/Dia2 ) |Seccion 2|
-|3|[Dia3](https://github.com/AuraCamilaPicoAraque/HTML_S1_PicoAura/tree/master/Dia3 "Dia3")|Seccion 3|
-|4| [Dia4](https://github.com/AuraCamilaPicoAraque/HTML_S1_PicoAura/tree/master/Dia4) | Seccion 4
+
+| 1 | [index.html](https://github.com/AuraCamilaPicoAraque/HTML_S1_PicoAura/blob/master/Dia7/index.html )|Codigo principal pagina 1 |
+
+| 2 |[index2.html](https://github.com/AuraCamilaPicoAraque/HTML_S1_PicoAura/blob/master/Dia7/index2.html )|Pagina 2|
+
+| 3 | [style](https://github.com/AuraCamilaPicoAraque/HTML_S1_PicoAura/tree/master/Dia7/style )|Styles - diseño de la pagina|
+
+| 4 |[img](https://github.com/AuraCamilaPicoAraque/HTML_S1_PicoAura/tree/master/Dia7/img ) | Imagenes de la pagina 
+
+| 5 | [objetos](https://github.com/AuraCamilaPicoAraque/HTML_S1_PicoAura/tree/master/Dia7/objetos )| objetos para la pagina
 
 
-## 🛠 Instalación
+##  Descripción  
 
-Para trabajar con este proyecto, asegúrate de tener instaladas las herramientas necesarias.
+Este proyecto presenta una interfaz gráfica que permite simular la compra y recarga de una **Tarjeta MetroLínea/TransMilenio**. La interfaz tiene dos secciones principales:  
 
+ **Página de compra de tarjeta** (`index.html`):  
+   - Muestra una tarjeta MetroLínea con un saldo inicial.  
+   - Botón para comprar la tarjeta.  
+   - Acceso a la página de consulta de saldo.  
 
-Deberas ejecutar este comando para descargarlo.
+ **Página de consulta de saldo** (`index2.html`):  
+   - Muestra la tarjeta del usuario con su nombre.  
+   - Indica el saldo actual y permite elegir una recarga.  
+   - Opción para regresar a la página principal.  
 
-``sudo apt install app``
+La interfaz usa imágenes, botones e iconos para mejorar la experiencia del usuario y dar una apariencia realista.  
 
+---
 
-## Contenidos Principales
+##  Estructura del Proyecto  
 
- **HTML**
+La carpeta del proyecto contiene los siguientes archivos y directorios:  
 
--   Estructura básica de una página web.
--   Uso de etiquetas `<div>`, `<table>`, `<form>`, etc.
--   Implementación de enlaces e imágenes.
--  Uso de etiquetas `<input>`, `<select>`, `<textarea>` y `<label>`. 
-- Validaciones básicas con `required` y `maxlength`.  
-
- **CSS**
-
--   Selectores y propiedades.
--   Uso de `flexbox` y `grid` para diseño responsivo.
--  Estilos personalizados con CSS (bordes, sombras, interacciones).  
--  Diseño centrado y con estructura visual agradable.  
-
-
-## Recursos Útiles
-
-####  [Documentación Oficial de HTML](https://developer.mozilla.org/es/docs/Web/HTML)  
-####  [Guía de CSS](https://developer.mozilla.org/es/docs/Web/CSS)  
-####  [Editor Recomendado - Visual Studio Code](https://code.visualstudio.com/)
-- 
-### Sección
-
- Ítem 1 – Introducción al proyecto  
- Ítem 2 – Desarrollo y prácticas
+📂 Tarjeta_Metrolinea 
+ |
+│── 📄 index.html # Página principal (compra de tarjeta)  
+│── 📄 index2.html # Página de consulta y recarga de saldo  
+│── 🎨 style.css # Estilos de la página principal  
+│── 🎨 style2.css # Estilos de la página de saldo  
+│── 📂 img # Contiene imágenes del diseño y tarjetas  
+│── 📂 objetos # Iconos y elementos decorativos  
+│── 📂 tipografias # Fuentes utilizadas en los textos
 
 
 
-Hecho por  [AuraCamilaPicoAraque](https://github.com/AuraCamilaPicoAraque)
-CamilaPicoAraque)
+ **Descripción de las carpetas:**  
+- **`img/`** → Contiene imágenes como el logo de MetroLínea, tarjeta y fondos.  
+- **`objetos/`** → Incluye iconos, botones y elementos gráficos decorativos.  
+- **`tipografias/`** → Almacena las fuentes utilizadas en la interfaz.  
+
+---
+
+##  Tecnologías Utilizadas  
+
+ **HTML5** → Estructura del sitio web.  
+ **CSS** → Estilos, colores y posicionamiento de elementos.  
+ **Tipografías Personalizadas** → Fuentes específicas para mejorar la estética.  
+
+---
+
+##  Cómo Ejecutarlo  
+
+Para ver el proyecto en funcionamiento:  
+
+1. **Descarga o clona** este repositorio.  
+2. Abre el archivo `index.html` en cualquier **navegador web**.    
+
+---
+
+📌 **Creado por:** [AuraCamilaPicoAraque](https://github.com/AuraCamilaPicoAraque)  

@@ -7,6 +7,9 @@ Este proyecto es una recreación de la interfaz de **Amazon Prime** utilizando *
 |Indice | Direccion | Descripcion
 |-|-|-|
 |Item1 | Index.html | Codigo principal del codigo
+|Item2 | Style.css | Estilo y diseño principal del codigo
+|Item3 | Carpetas | Donde estaran las imagenes guardadas para el funcionamiento de la pagina 
+
 ---
 
 ##  Descripción  

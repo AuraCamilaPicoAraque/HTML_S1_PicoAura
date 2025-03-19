@@ -30,17 +30,63 @@
 }
 
 
-
+/* -------------------------------------------------------------*/
 
 .fondoblanco {
 
     position: absolute;
+    background-color: white;
+    border: 1px solid #cecece;
+    padding: 0px;
+
     top: 200px;
     left: 100px;
     width: 1400px;
     height: 800px;
 
 }
+
+
+.bloqueamarillo {
+
+    position: absolute;
+    background-color: #cef228;
+    border: 1px solid #d0ff00;
+    border-radius: 10px;
+
+    top: 847px;
+    left: 1180px;
+    width: 160px;
+    height: 114px;
+}
+
+.bloquenegro {
+
+    position: absolute;
+    background-color: black;
+    border-radius: 5px;
+
+    top: 200px;
+    left: 1390px;
+    width: 110px;
+    height: 800px;
+
+}
+
+
+.linea {
+    position: absolute;
+    top: 303px;
+    left: 841px;
+    width: 146px;
+    height: 0px;
+    border: 2px solid #212020;
+
+}
+
+
+/* -------------------------------------------------------------*/
+/* -----------------------IMAGENES------------------------------*/
 
 .metrolinea {
 
@@ -62,24 +108,6 @@
 
 }
 
-.bloqueamarillo {
-
-    position: absolute;
-    top: 847px;
-    left: 1180px;
-    width: 160px;
-    height: 114px;
-}
-
-.bloquenegro {
-
-    position: absolute;
-    top: 200px;
-    left: 1390px;
-    width: 110px;
-    height: 800px;
-
-}
 
 .flecha {
 
@@ -103,20 +131,11 @@
 }
 
 
-.menu {
-
-    position: absolute;
-    top: 507px;
-    left: 1430px;
-    width: 23px;
-    height: 187px;
-}
-
 .busca {
 
     position: absolute;
     top: 252px;
-    left: 1224px;
+    left: 1250px;
     width: 27px;
     height: 27px;
 }
@@ -131,17 +150,6 @@
     height: 32px;
 }
 
-.linea {
-    position: absolute;
-    top: 303px;
-    left: 841px;
-    width: 146px;
-    height: 0px;
-    border: 2px solid var(--unnamed-color-212020);
-    border: 2px solid #212020;
-
-}
-
 .metrochiqui {
 
     position: absolute;
@@ -153,21 +161,20 @@
 
 
 
-
-
-/*  TEXTOS DE LA PAGINA */
+/* -------------------------------------------------------------*/
+/* ------------------ TEXTOS DE LA PAGINA -------------------- */
 
 
 
 @font-face {
-    font-family: "Open Sans Semibold" ;
+    font-family: "Open Sans Semibold";
     src: url(../tipografias/OpenSans-Semibold.ttf) format(truetype);
 
 }
 
-@font-face { 
-    font-family: "Open Sans Regular" ;
-    src: url(../tipografias/OpenSans-Regular.ttf) format(truetype); 
+@font-face {
+    font-family: "Open Sans Regular";
+    src: url(../tipografias/OpenSans-Regular.ttf) format(truetype);
 
 }
 
@@ -183,7 +190,7 @@ tarjeta {
     height: 55px;
 
     font-size: 40px;
-    font-family: "Open Sans Semibold" ;
+    font-family: "Open Sans Semibold";
 }
 
 pesos {
@@ -193,7 +200,7 @@ pesos {
     left: 157px;
 
     font-size: 27px;
-    font-family: "Open Sans Semibold" ;
+    font-family: "Open Sans Semibold";
 
 
 }
@@ -256,13 +263,59 @@ cantidad {
 }
 
 
+
+cerocuatro {
+
+    position: absolute;
+    color: #707070;
+    font-size: 20px;
+    font-family: "Open Sans Regular";
+
+    top: 507px;
+    left: 1430px;
+    width: 23px;
+    height: 187px;
+    
+}
+
+cerocinco {
+
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    font-weight: 200;
+    font-family: "Open Sans Regular";
+
+
+    top: 600px;
+    left: 1430px;
+    width: 23px;
+    height: 187px;
+}
+
+
+ceroseis {
+
+    position: absolute;
+    color: #707070;
+    font-size: 20px;
+    font-weight: 100;
+    font-family: "Open Sans Regular";
+
+
+    top: 700px;
+    left: 1430px;
+    width: 23px;
+    height: 187px;
+    
+
+}
+
+/* -------------------------------------------*/
+/* ---------------HIPERVINCULO---------------*/
 a:hover {
 
     color: red;
     background-color: transparent;
     text-decoration: underline;
-
 }
-
-
-

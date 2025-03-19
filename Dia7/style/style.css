@@ -1,0 +1,268 @@
+.posicionfondo {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.fondo {
+
+    /* UI Properties */
+    background: transparent linear-gradient(180deg, var(--unnamed-color-ffffff) 0%, #E6E6E6 21%, #808080 100%) 0% 0% no-repeat padding-box;
+    background: transparent linear-gradient(180deg, #FFFFFF 0%, #E6E6E6 21%, #808080 100%) 0% 0% no-repeat padding-box;
+
+    position: absolute;
+
+    width: 1600px;
+    height: 1200px;
+    display: flex;
+    opacity: 1;
+
+    border: 2px solid #d8d8d8;
+
+}
+
+
+
+
+.fondoblanco {
+
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    width: 1400px;
+    height: 800px;
+
+}
+
+.metrolinea {
+
+    position: absolute;
+    top: 243px;
+    left: 143px;
+    width: 196px;
+    height: 44px;
+
+}
+
+.targetametro {
+
+    position: absolute;
+    top: 322px;
+    left: 227px;
+    width: 884px;
+    height: 497px;
+
+}
+
+.bloqueamarillo {
+
+    position: absolute;
+    top: 847px;
+    left: 1180px;
+    width: 160px;
+    height: 114px;
+}
+
+.bloquenegro {
+
+    position: absolute;
+    top: 200px;
+    left: 1390px;
+    width: 110px;
+    height: 800px;
+
+}
+
+.flecha {
+
+    position: absolute;
+    top: 240px;
+    left: 1433px;
+    width: 24px;
+    height: 14px;
+
+}
+
+
+.flechabajo {
+
+    position: absolute;
+    top: 946px;
+    left: 1433px;
+    width: 24px;
+    height: 14px;
+
+}
+
+
+.menu {
+
+    position: absolute;
+    top: 507px;
+    left: 1430px;
+    width: 23px;
+    height: 187px;
+}
+
+.busca {
+
+    position: absolute;
+    top: 252px;
+    left: 1224px;
+    width: 27px;
+    height: 27px;
+}
+
+
+.compra {
+
+    position: absolute;
+    top: 252px;
+    left: 1324px;
+    width: 33px;
+    height: 32px;
+}
+
+.linea {
+    position: absolute;
+    top: 303px;
+    left: 841px;
+    width: 146px;
+    height: 0px;
+    border: 2px solid var(--unnamed-color-212020);
+    border: 2px solid #212020;
+
+}
+
+.metrochiqui {
+
+    position: absolute;
+    top: 876px;
+    left: 1195px;
+    width: 129px;
+    height: 29px;
+}
+
+
+
+
+
+/*  TEXTOS DE LA PAGINA */
+
+
+
+@font-face {
+    font-family: "Open Sans Semibold" ;
+    src: url(../tipografias/OpenSans-Semibold.ttf) format(truetype);
+
+}
+
+@font-face { 
+    font-family: "Open Sans Regular" ;
+    src: url(../tipografias/OpenSans-Regular.ttf) format(truetype); 
+
+}
+
+
+
+
+tarjeta {
+
+    position: absolute;
+    top: 840px;
+    left: 158px;
+    width: 716px;
+    height: 55px;
+
+    font-size: 40px;
+    font-family: "Open Sans Semibold" ;
+}
+
+pesos {
+
+    position: absolute;
+    top: 910px;
+    left: 157px;
+
+    font-size: 27px;
+    font-family: "Open Sans Semibold" ;
+
+
+}
+
+.predeabajodelabajo {
+
+    position: absolute;
+    top: 215px;
+    left: 800px;
+    width: 230px;
+
+    font-size: 30px;
+    font-family: "Open Sans Regular";
+    color: black;
+
+}
+
+
+.predeabajodelabajodeabajo {
+
+    position: absolute;
+    top: 215px;
+    left: 1060px;
+    width: 132px;
+
+    font-size: 30px;
+    font-family: "Open Sans Regular";
+    color: black;
+
+
+}
+
+
+comprar {
+
+    position: absolute;
+    top: 917px;
+    left: 1205px;
+    width: 111px;
+    height: 36px;
+
+    font-size: 26px;
+    font-family: "Open Sans Semibold";
+}
+
+
+cantidad {
+
+    position: absolute;
+    top: 349px;
+    left: 1403px;
+    width: 84px;
+    height: 27px;
+
+    font-size: 20px;
+    font-family: "Open Sans Regular";
+    color: rgb(219, 219, 219);
+    opacity: 1;
+
+}
+
+
+a:hover {
+
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+
+}
+
+
+

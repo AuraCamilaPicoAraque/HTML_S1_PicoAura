@@ -1,0 +1,355 @@
+.posicionfondo {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.fondo {
+
+    /* UI Properties */
+    background: transparent linear-gradient(180deg, var(--unnamed-color-ffffff) 0%, #E6E6E6 21%, #808080 100%) 0% 0% no-repeat padding-box;
+    background: transparent linear-gradient(180deg, #FFFFFF 0%, #E6E6E6 21%, #808080 100%) 0% 0% no-repeat padding-box;
+
+    position: absolute;
+
+    width: 1600px;
+    height: 1200px;
+    display: flex;
+    opacity: 1;
+
+    border: 2px solid #d8d8d8;
+
+}
+
+
+
+
+.fondoblanco {
+
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    width: 1400px;
+    height: 800px;
+
+}
+
+.metrolinea {
+
+    position: absolute;
+    top: 243px;
+    left: 143px;
+    width: 196px;
+    height: 44px;
+
+}
+
+.targetametro {
+
+    position: absolute;
+    top: 303px;
+    left: 459px;
+    width: 576px;
+    height: 324px;
+
+}
+
+.bloqueamarillo {
+
+    position: absolute;
+    top: 847px;
+    left: 1180px;
+    width: 160px;
+    height: 114px;
+}
+
+.bloquenegro {
+
+    position: absolute;
+    top: 200px;
+    left: 1390px;
+    width: 110px;
+    height: 800px;
+
+}
+
+.flecha {
+
+    position: absolute;
+    top: 240px;
+    left: 1433px;
+    width: 24px;
+    height: 14px;
+
+}
+
+
+.flechabajo {
+
+    position: absolute;
+    top: 946px;
+    left: 1433px;
+    width: 24px;
+    height: 14px;
+
+}
+
+
+.menu {
+
+    position: absolute;
+    top: 507px;
+    left: 1430px;
+    width: 23px;
+    height: 187px;
+}
+
+.busca {
+
+    position: absolute;
+    top: 252px;
+    left: 1224px;
+    width: 27px;
+    height: 27px;
+}
+
+
+.compra {
+
+    position: absolute;
+    top: 252px;
+    left: 1324px;
+    width: 33px;
+    height: 32px;
+}
+
+.linea {
+    position: absolute;
+    top: 303px;
+    left: 1080px;
+    width: 84px;
+    height: 0px;
+    border: 2px solid var(--unnamed-color-212020);
+    border: 2px solid #212020;
+
+}
+
+.metrochiqui {
+
+    position: absolute;
+    top: 876px;
+    left: 1195px;
+    width: 129px;
+    height: 29px;
+}
+
+
+
+
+/*  TEXTOS DE LA PAGINA */
+
+
+@font-face {
+    font-family: "Open Sans Semibold" ;
+    src: url(../tipografias/OpenSans-Semibold.ttf) format(truetype);
+
+}
+
+@font-face { 
+    font-family: "Open Sans Regular" ;
+    src: url(../tipografias/OpenSans-Regular.ttf) format(truetype); 
+
+}
+
+
+
+
+.predeabajodelabajo {
+
+    position: absolute;
+    top: 215px;
+    left: 800px;
+    width: 230px;
+
+    font-size: 30px;
+    font-family: "Open Sans Regular";
+    color: black;
+
+}
+
+
+.predeabajodelabajodeabajo {
+
+    position: absolute;
+    top: 215px;
+    left: 1060px;
+    width: 132px;
+
+    font-size: 30px;
+    font-family: "Open Sans Regular";
+    color: black;
+    
+
+}
+
+
+comprar {
+
+    position: absolute;
+    top: 904px;
+    left: 1205px;
+    width: 111px;
+    height: 36px;
+
+    font-size: 26px;
+    font-family: "Open Sans Semibold";
+
+}
+
+
+cantidad {
+
+    position: absolute;
+    top: 349px;
+    left: 1423px;
+    width: 84px;
+    height: 27px;
+
+    font-size: 20px;
+    font-family: "Open Sans Regular";
+    color: rgb(219, 219, 219);
+}
+
+
+
+tarjeta {
+
+    position: absolute;
+    top: 600px;
+    left: 401px;
+    width: 700px;
+    height: 55px;
+
+    font-family: "Open Sans Semibold";
+    font-size: 40px;
+
+    color: var(--unnamed-color-000000);
+    text-align: left;
+    letter-spacing: 0px;
+    color: #000000;
+}
+
+
+saldo {
+
+    position: absolute;
+    top: 677px;
+    left: 583px;
+    width: 329px;
+    height: 37px;
+
+    font-family: "Open Sans Semibold";
+    font-size: 27px;
+
+    color: var(--unnamed-color-000000);
+    text-align: left;
+    letter-spacing: 0px;
+
+}
+
+
+saldoescogido {
+
+    position: absolute;
+    top: 744px;
+    left: 639px;
+    width: 200px;
+    height: 37px;
+
+    font-family: "Open Sans Semibold";
+    font-size: 27px;
+
+}
+
+
+.borde {
+    position: absolute;
+    top: 799px;
+    left: 595px;
+    width: 288px;
+    height: 58px;
+
+    border: 1px solid #707070;
+    border-radius: 10px;
+    opacity: 0.7;
+}
+
+.presio {
+
+    position: absolute;
+    top: 14px;
+    left: 105px;
+    width: 77px;
+    height: 37px;
+
+    text-align: left;
+    font-size: 27px;
+    font-family: "Open Sans Semibold";
+    color: #000000;
+    opacity: 0.8;
+}
+
+
+
+cien {
+
+    position: absolute;
+    top: 507px;
+    left: 1417px;
+    width: 57px;
+    height: 27px;
+
+    font-family: "Open Sans Regular";
+    font-size: 20px;
+    color: #FFFFFF80;
+}
+
+cientoquince {
+
+    position: absolute;
+    top: 587px;
+    left: 1417px;
+    width: 57px;
+    height: 27px;
+
+    font-family: "Open Sans Regular";
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+
+doscientos {
+
+    position: absolute;
+    top: 667px;
+    left: 1417px;
+    width: 57px;
+    height: 27px;
+
+    letter-spacing: 0px;
+    font-family: "Open Sans Regular";
+    font-size: 20px;
+    color: #FFFFFF80;
+
+}
+
+
+
+

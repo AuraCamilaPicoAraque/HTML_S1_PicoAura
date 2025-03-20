@@ -11,11 +11,8 @@ Este proyecto es una página web diseñada para promocionar una cafetería, dest
 |Indice | descipcion |
 |-|-|
 | [index.html](https://github.com/AuraCamilaPicoAraque/HTML_S1_PicoAura/blob/master/Dia8/index.html ) | Pagina principal para el codigo|
-
 | [style](https://github.com/AuraCamilaPicoAraque/HTML_S1_PicoAura/tree/master/Dia8/style) | Diseño de la pagina web|
-
 | [tipografia](https://github.com/AuraCamilaPicoAraque/HTML_S1_PicoAura/tree/master/Dia8/tipografia)  | Las 3 tipografias que se utilizan en la pagina web|
-
 | [imagenes](https://github.com/AuraCamilaPicoAraque/HTML_S1_PicoAura/tree/master/Dia8/imagenes) | Lo mismo imagenes que se utilizan en la pagina|
 
   

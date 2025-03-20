@@ -1,17 +1,26 @@
-# ☕ Café - Página Web  
+# ☕ Café - Página Web
 
-Este proyecto es una página web diseñada para promocionar una cafetería, destacando sus productos y su historia. Utiliza **HTML y CSS** para crear una experiencia visual atractiva y elegante.  
+  
 
-##  Tabla de Contenido  
-|Indice | descipcion | 
+Este proyecto es una página web diseñada para promocionar una cafetería, destacando sus productos y su historia. Utiliza **HTML y CSS** para crear una experiencia visual atractiva y elegante.
+
+  
+
+## Tabla de Contenido
+
+|Indice | descipcion |
 |-|-|
-|Index.html	| Pagina principal para el codigo|
-| Style.css | Diseño de la pagina web|
-| Carpeta tipografia | Las 3 tipografias que se utilizan en la pagina web|
-| Carpeta de imagenes | Lo mismo imagenes que se utilizan en la pagina|
+| [index.html](https://github.com/AuraCamilaPicoAraque/HTML_S1_PicoAura/blob/master/Dia8/index.html ) | Pagina principal para el codigo|
+
+| [style](https://github.com/AuraCamilaPicoAraque/HTML_S1_PicoAura/tree/master/Dia8/style) | Diseño de la pagina web|
+
+| [tipografia](https://github.com/AuraCamilaPicoAraque/HTML_S1_PicoAura/tree/master/Dia8/tipografia)  | Las 3 tipografias que se utilizan en la pagina web|
+
+| [imagenes](https://github.com/AuraCamilaPicoAraque/HTML_S1_PicoAura/tree/master/Dia8/imagenes) | Lo mismo imagenes que se utilizan en la pagina|
+
+  
 
 ---
-
 ##  Descripción  
 
 Este sitio web tiene un diseño moderno y minimalista, centrado en la presentación de una cafetería y sus productos. Se divide en varias secciones:  

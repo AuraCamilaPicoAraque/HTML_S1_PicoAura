@@ -49,7 +49,9 @@ body {
     top: 1410px;
     left: 70px;
     width: 880px;
-    height: 660px;
+    height: 609px;
+
+    
 }
 
 
@@ -61,8 +63,8 @@ body {
     width: 600px;
     height: 550px;
 
-}
 
+}
 
 
 /*  IMAGEN DE LOS MENUS DE PRODUCTOS  */
@@ -74,6 +76,7 @@ body {
     left: 290px;
     width: 150px;
     height: 150px;
+    filter: drop-shadow(5px 5px 5px rgba(67, 66, 66, 0.8));
 
 } 
 
@@ -84,7 +87,7 @@ body {
     left: 900px;
     width: 150px;
     height: 150px;
-
+    filter: drop-shadow(5px 5px 5px rgba(67, 66, 66, 0.8));
 } 
 
 .imagen3menu {
@@ -94,7 +97,7 @@ body {
     left: 1500px;
     width: 150px;
     height: 150px;
-
+    filter: drop-shadow(5px 5px 5px rgba(67, 66, 66, 0.8));
 } 
 
 
@@ -603,7 +606,7 @@ Contact:hover {
     width: 419px;
     height: 550px;
 
-    font-family: "open sauce";
+    font-family: sans-serif;
     white-space: nowrap;
 
     font-size: 23px;
@@ -619,11 +622,14 @@ Contact:hover {
 
 .one {
     max-width: 160px;
-
     position: absolute;
-    text-align: left;
 
-    top: 100px;
+
+    top: 135px;
+}
+
+.one b {
+    margin-left: 30px;
 }
 
 
@@ -639,7 +645,7 @@ Contact:hover {
     width: 419px;
     height: 550px;
 
-    font-family: "open sauce";
+    font-family: sans-serif;
     white-space: nowrap;
 
     font-size: 23px;
@@ -659,9 +665,12 @@ Contact:hover {
     position: absolute;
     text-align: left;
 
-    top: 100px;
+    top: 135px;
 }
 
+.two b {
+    margin-left: 30px;
+}
 
 
 
@@ -675,7 +684,7 @@ Contact:hover {
     width: 419px;
     height: 550px;
 
-    font-family: "open sauce";
+    font-family: sans-serif;
     white-space: nowrap;
 
     font-size: 23px;
@@ -697,7 +706,11 @@ Contact:hover {
     position: absolute;
     text-align: left;
 
-    top: 100px;
+    top: 135px;
+}
+
+.three b {
+    margin-left: 30px;
 }
 
 
@@ -741,7 +754,7 @@ Contact:hover {
     position: absolute;
 
     top: 3930px;
-    left: 888px;
+    left: 882px;
     width: 199px;
     height: 50px;
 
@@ -772,7 +785,7 @@ Contact:hover {
     position: absolute;
 
     top: 3930px;
-    left: 1479px;
+    left: 1473px;
     width: 199px;
     height: 50px;
 

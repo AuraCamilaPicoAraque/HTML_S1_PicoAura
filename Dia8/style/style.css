@@ -5,6 +5,13 @@ body {
 }
 
 
+
+html {
+
+    scroll-behavior: smooth;
+
+}
+
 /* TIPOGRAFIAS */
 
 @font-face {
@@ -363,13 +370,18 @@ Logo {
     font-family: sans-serif;
     font-size: 38px;
 
+    display: inline-block;
+
 }
 
 Logo:hover {
 
     border-bottom: 5px solid #ce9e5a;
-    cursor: pointer;
+        cursor: pointer;
+        transition: right 0.3s ease-in-out;
 }
+
+
 
 
 

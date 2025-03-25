@@ -1,0 +1,825 @@
+* {
+
+    margin: 0;
+}
+
+
+body {
+
+    background-color: black;
+
+}
+
+
+
+html {
+
+    scroll-behavior: smooth;
+
+}
+
+/* TIPOGRAFIAS */
+
+@font-face {
+    font-family: "Barlow";
+    src: url(../tipografia/Barlow-Bold.ttf) format(truetype);
+
+}
+
+@font-face {
+    font-family: "open sauce";
+    src: url(../tipografia/open-sauce.one-semibold.ttf) format(truetype);
+
+}
+
+@font-face {
+
+    font-family: "Playfair";
+    src: url(../tipografia/PlayfairDisplay-Black.ttf) format(truetype);
+
+
+}
+
+
+
+/*    IMAGENES  */
+
+
+.tazadecafeprincipal {
+
+    position: relative;
+    
+    top: 0px;
+    left: 0px;
+    width: 99.9%;
+}
+
+.tazate {
+
+    position: relative;
+    top: 1410px;
+    left: 70px;
+    width: 880px;
+    height: 609px;
+
+    
+}
+
+
+.tazacorazon {
+
+    position: relative;
+    top: 2260px;
+    left: 1260px;
+    width: 600px;
+    height: 550px;
+
+
+}
+
+
+/*  IMAGEN DE LOS MENUS DE PRODUCTOS  */
+
+.imagen1menu {
+
+    position: relative;
+    top: 3389px;
+    left: 290px;
+    width: 150px;
+    height: 150px;
+    filter: drop-shadow(5px 5px 5px rgba(67, 66, 66, 0.8));
+
+} 
+
+.imagen2menu {
+
+    position: relative;
+    top: 3389px;
+    left: 900px;
+    width: 150px;
+    height: 150px;
+    filter: drop-shadow(5px 5px 5px rgba(67, 66, 66, 0.8));
+} 
+
+.imagen3menu {
+
+    position: relative;
+    top: 3389px;
+    left: 1500px;
+    width: 150px;
+    height: 150px;
+    filter: drop-shadow(5px 5px 5px rgba(67, 66, 66, 0.8));
+} 
+
+
+
+
+
+/*    LETRAS DE LA PAGINA   */
+
+
+letra1 {
+
+    color: white;
+
+    position: relative;
+    top: -25em;
+    left: 11.5em;
+
+    font-family: "Playfair" ;
+    font-weight: 100;
+    white-space: nowrap;
+
+    font-size: 10rem;
+    font-style:inherit;
+    letter-spacing: 6px;
+
+
+
+}
+
+letra2 {
+
+    color: white;
+
+    position: relative;
+    top: 990px;
+    left: 459px;
+
+    font-family:"Playfair";
+    font-weight: 100;
+    white-space: nowrap;
+
+    font-size: 110px;
+
+}
+
+letra3 {
+
+    color: #d0d0d0;
+
+    position: relative;
+    top: 1540px;
+    left: 1213px;
+
+    font-family: "Playfair";
+    font-weight: 500;
+    white-space: nowrap;
+
+    font-size: 90px;
+
+
+}
+
+
+letra4 {
+    
+    color: #ffffff;
+
+    position: relative;
+    top: 2360px;
+    left: 250px;
+
+    font-family: "Playfair";
+    font-weight: 500;
+    white-space: nowrap;
+    line-height: 120px;
+    letter-spacing: 3px;
+
+    font-size: 70px;
+
+    
+}
+
+letra5 {
+
+    color: #ffffff;
+
+    position: relative;
+    top: 3180px;
+    left: 130px;
+
+    font-family: "Playfair";
+    font-weight: 500;
+    white-space: nowrap;
+    line-height: 120px;
+    letter-spacing: 3px;
+
+    font-size: 80px;
+
+}
+
+minitexto1 {
+
+    color: #d0d0d0;
+
+    position: relative;
+    top: 1700px;
+    left: 1213px;
+
+    font-family: "open sauce";
+    font-weight: 500;
+    white-space: nowrap;
+
+    font-size: 20px;
+
+}
+
+
+minitexto2 {
+
+    color: #d0d0d0;
+
+    position: relative;
+    top: 2760px;
+    left: 250px;
+
+    font-family: "open sauce";
+    font-weight: 500;
+    white-space: nowrap;
+
+    font-size: 23px;
+
+
+}
+
+
+/*  TEXTO DE LO ULTIMO :D */
+
+
+
+AboutUS {
+
+    color: #d0d0d0;
+
+    position: relative;
+    top: 4410px;
+    left: 280px;
+
+    font-family: "Barlow";
+    font-weight: 500;
+    white-space: nowrap;
+
+    font-size: 40px;
+
+}
+
+.usABOUT {
+
+    color: #ce9e5a;
+}
+
+
+ContactUS {
+
+    color: #d0d0d0;
+
+    position: relative;
+    top: 4410px;
+    left: 790px;
+
+    font-family: "Barlow";
+    font-weight: 500;
+    white-space: nowrap;
+
+    font-size: 40px;
+
+}
+
+
+.usContact {
+
+    color: #ce9e5a;
+}
+
+
+OpeningHourse {
+
+    color: #d0d0d0;
+
+    position: relative;
+    top: 4410px;
+    left: 1300px;
+
+    font-family: "Barlow";
+    font-weight: 500;
+    white-space: nowrap;
+
+    font-size: 40px;
+
+}
+
+.usOpening {
+
+    color: #ce9e5a;
+}
+
+
+
+
+AboutUS, ContactUS, OpeningHourse {
+
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+
+
+pre {
+    text-align: center;
+    font-size: 20px;
+    white-space: pre-line;
+    font-family: "open sauce" ;
+
+}
+
+
+copyright {
+
+    color: #d0d0d0;
+
+    position: relative;
+    top: 4809px;
+    left:800px;
+
+    font-family: "open sauce";
+    font-weight: 500;
+    white-space: nowrap;
+
+    font-size: 20px;
+
+}
+
+.spams {
+
+    color: #ce9e5a;
+}
+
+
+
+
+/*  MENU DE LAS OPCIONES PARA EL SUPUESTO HIPERVINCULO */
+
+
+
+Logo {
+
+    color: white;
+
+    position: relative;
+    top: 10px;
+    left: 300px;
+
+    font-family: sans-serif;
+    font-size: 38px;
+
+    display: inline-block;
+
+}
+
+Logo:hover {
+
+    border-bottom: 5px solid #ce9e5a;
+        cursor: pointer;
+        transition: right 0.3s ease-in-out;
+}
+
+
+
+
+
+Home {
+
+    color: white;
+
+    position: relative;
+    top: 10px;
+    left: 1200px;
+    
+    font-family: sans-serif;
+    font-size: 27px;
+
+}
+
+Home:hover {
+
+    border-bottom: 5px solid #ce9e5a;
+    cursor: pointer;
+}
+
+
+
+About {
+
+    color: white;
+
+    position: relative;
+    top: 10px;
+    left: 1340px;
+
+    font-family: sans-serif;
+    font-size: 27px;
+
+}
+
+About:hover {
+
+    border-bottom: 5px solid #ce9e5a;
+    cursor: pointer;
+}
+
+
+
+
+Menuu {
+
+    color: white;
+
+    position: relative;
+    top: 10px;
+    left: 1480px;
+    
+    font-family: sans-serif;
+    font-size: 27px;
+
+}
+
+Menuu:hover {
+
+    border-bottom: 5px solid #ce9e5a;
+    cursor: pointer;
+}
+
+
+
+
+Contact {
+
+    color: white;
+
+    position: relative;
+    top: 10px;
+    left: 1620px;
+    
+    font-family: sans-serif;
+    font-size: 27px;
+
+}
+
+Contact:hover {
+
+    border-bottom: 5px solid #ce9e5a;
+    cursor: pointer;
+}
+
+
+
+
+
+/* OBJETOS PARA LA PAGINA SEA DIV O OTROS. */
+
+
+.shop {
+    position: relative;
+
+    top: 1180px;
+    left: 869px;
+    width: 199px;
+    height: 50px;
+
+    background-color: #ffa220e1;
+    border-radius: 2px;
+
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+
+    font-family: sans-serif;
+    font-size: 22px;
+}
+
+.shop:hover {
+ 
+    box-shadow: 10px 10px #d0d0d0;
+    cursor: pointer;
+    
+}
+
+
+.learn {
+
+    position: relative;
+
+    top: 1800px;
+    left: 1210px;
+    width: 199px;
+    height: 50px;
+
+    background-color: #ffa220e1;
+    border-radius: 2px;
+
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+
+    font-family: "open sauce";
+    font-size: 20px;
+
+}
+
+.learn:hover {
+ 
+    box-shadow: 10px 10px #d0d0d0;
+    cursor: pointer;
+    
+}
+
+
+
+.learn2 {
+
+    position: relative;
+
+    top: 2820px;
+    left: 250px;
+    width: 199px;
+    height: 50px;
+
+    background-color: #ffa220e1;
+    border-radius: 2px;
+
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+
+    font-family: "open sauce";
+    font-size: 20px;
+
+}
+
+.learn2:hover {
+ 
+    box-shadow: 10px 10px #d0d0d0;
+    cursor: pointer;
+    
+}
+
+.rayita {
+
+    position: relative;
+
+    top: 1590px;
+    left: 1020px;
+    width: 170px;
+    height: 3px;
+
+    background-color: white;
+}
+
+
+
+.rayitaabajodeltodo {
+
+    position: relative;
+
+    top: 4180px;
+    left: 520px;
+    width: 955px;
+    height: 3px;
+
+    background-color:#ce9e5a;
+
+
+}
+
+
+.rayitadeloultimodearriba {
+
+    position: relative;
+
+    top: 4780px;
+    left: 520px;
+    width: 955px;
+    height: 3px;
+
+    background-color:#ce9e5a;
+
+
+}
+
+/*  ------------- RECUADROS DE LOS PRODUCTOS -------------------*/
+
+
+
+.recuadro1 {
+
+    color: #d0d0d0;
+
+    position: relative;
+    top: 3460px;
+    left: 166px;
+    width: 419px;
+    height: 550px;
+
+    font-family: sans-serif;
+    white-space: nowrap;
+
+    font-size: 23px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    border: 3px solid #ce9e5a;
+
+}
+
+.one {
+    max-width: 160px;
+    position: relative;
+
+
+    top: 135px;
+}
+
+.one b {
+    margin-left: 30px;
+}
+
+
+
+
+.recuadro2 {
+
+    color: #d0d0d0;
+
+    position: relative;
+    top: 3460px;
+    left: 769px;
+    width: 419px;
+    height: 550px;
+
+    font-family: sans-serif;
+    white-space: nowrap;
+
+    font-size: 23px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    border: 3px solid #ce9e5a;
+
+}
+
+.two {
+    max-width: 160px;
+
+    position: relative;
+    text-align: left;
+
+    top: 135px;
+}
+
+.two b {
+    margin-left: 30px;
+}
+
+
+
+.recuadro3 {
+
+    color: #d0d0d0;
+
+    position: relative;
+    top: 3460px;
+    left: 1360px;
+    width: 419px;
+    height: 550px;
+
+    font-family: sans-serif;
+    white-space: nowrap;
+
+    font-size: 23px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    border: 3px solid #ce9e5a;
+
+
+}
+
+.three {
+
+    max-width: 160px;
+
+    position: relative;
+    text-align: left;
+
+    top: 135px;
+}
+
+.three b {
+    margin-left: 30px;
+}
+
+
+
+
+/*  LEARN MORE DE LOS 3 MENUS DE LAS PRODUCTOS */
+
+.learnmenu1 {
+
+    position: relative;
+
+    top: 3930px;
+    left: 279px;
+    width: 199px;
+    height: 50px;
+
+    background-color: #ffa220e1;
+    border-radius: 2px;
+
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+
+    font-family: "open sauce";
+    font-size: 20px;
+
+}
+
+.learnmenu1:hover {
+ 
+    box-shadow: 10px 10px #d0d0d0;
+    cursor: pointer;
+    
+}
+
+
+
+
+.learnmenu2 {
+
+    position: relative;
+
+    top: 3930px;
+    left: 882px;
+    width: 199px;
+    height: 50px;
+
+    background-color: #ffa220e1;
+    border-radius: 2px;
+
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+
+    font-family: "open sauce";
+    font-size: 20px;
+
+}
+
+.learnmenu2:hover {
+ 
+    box-shadow: 10px 10px #d0d0d0;
+    cursor: pointer;
+    
+}
+
+
+
+
+.learnmenu3 {
+
+    position: relative;
+
+    top: 3930px;
+    left: 1473px;
+    width: 199px;
+    height: 50px;
+
+    background-color: #ffa220e1;
+    border-radius: 2px;
+
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+
+    font-family: "open sauce";
+    font-size: 20px;
+
+}
+
+.learnmenu3:hover {
+ 
+    box-shadow: 10px 10px #d0d0d0;
+    cursor: pointer;
+    
+}

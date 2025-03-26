@@ -5,6 +5,7 @@ Practica para el manejo y desarrollo de la programacion con html y css.
 Aqui desempeñaremos las habilidades basicas.
 
 ## Dias de desempeño
+
 | Indice | Titulo |Informacion|
 |--|--|--|
 | 1 | [Dia1](https://github.com/AuraCamilaPicoAraque/HTML_S1_PicoAura/tree/master/Dia1)| Seccion 1|
@@ -15,6 +16,9 @@ Aqui desempeñaremos las habilidades basicas.
 | 6 | [Dia6](https://github.com/AuraCamilaPicoAraque/HTML_S1_PicoAura/tree/master/Dia6)| Seccion 6|
 | 7 | [Dia7](https://github.com/AuraCamilaPicoAraque/HTML_S1_PicoAura/tree/master/Dia7)| Seccion 7|
 | 8 | [Dia8](https://github.com/AuraCamilaPicoAraque/HTML_S1_PicoAura/tree/master/Dia8)| Seccion 8|
+| 9 | [Dia9](https://github.com/AuraCamilaPicoAraque/HTML_S1_PicoAura/tree/master/Dia9)| Seccion 9|
+| 10 | [Dia10](https://github.com/AuraCamilaPicoAraque/HTML_S1_PicoAura/tree/master/Dia10)| Seccion 10|
+| 11 | [Dia11](https://github.com/AuraCamilaPicoAraque/HTML_S1_PicoAura/tree/master/Dia11)| Seccion 11|
 
 ## 🛠 Instalación
 

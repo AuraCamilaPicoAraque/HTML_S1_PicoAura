@@ -1,102 +1,186 @@
-body {
+/* Ejercicio Dia 11 */
+
+body{
+    display: grid;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+/*  BLOQUE DE LA PRIMERA SECCION :D */
+
+.seccion1 {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: auto;
+    background-color: black;
+    border-radius: 1vh;
     
+    width: auto;    
+    gap: 1.1vw;
+    padding: 2vh;
+
+
+}
+.seccion1 > div{
+    display: flex;
     justify-content: center;
+}
+
+
+
+/*  IMAGENES DE LA PRIMERA SECCION DX */
+
+
+
+/* IMAGEN 1 - */
+
+.seccion1__DinoArriba {
+    grid-column: 1/2;
+    grid-row: 1/2;
+
+}
+
+.seccion1__DinoArriba img {
+    height: 100%;
     width: 100%;
+    
+    border-radius: 1vh;
+}
+
+
+/* IMAGEN 2 - */
+
+
+.seccion1__abajodedino {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.seccion1__abajodedino img {
+
+    height: 100%;
+    width: 100%;
+    border-radius: 1vh;
+}
+
+
+/* IMAGEN 3 - */
+
+
+.seccion1__texto_largo {
+    grid-column: 2/3;
+    grid-row: 1/3;
+
     height: 100%;
 }
 
-seccion1 {
+.seccion1__texto_largo img {
+    height: 100%;
+    width: 100%;
 
-    display: grid;
-    background-color: black;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-
-
-    padding: 1%;
-    border-radius: 0.5vw;
-    gap: 0.8vw;
-
-}
-
-
-/*
-seccion2 {
-
-    background-color: black;
-
-}
-*/
-
-
-
-
-
-
-.DinoArriba {
-
-    grid-row-start: 1;
-    grid-row-end: 1;
-
-    width: 80vh;
-    margin-top: 1vw;
-
-
-    align-content: center;
-    justify-content: center;
-}
-
-
-.textoalladodeldino {
-
-
-
-    width: 45vh;
-
-    margin: 0;
-    padding: 0;
-
-
-    align-content: center;
-    justify-content: center;
-}
-
-.textoalladodeldino video {
-
-        height: 30vh;
-        margin-top: 0;
-}
-
-.texto_largo {
-
-
-    grid-row-start: 1;
-    grid-row-end: 3;
-    border-radius: 2vw;
-    border: none;
-
-
-    align-content: center;
-    justify-content: center;
-
+    border-radius: 1vh;
 }
 
 
 
+/* IMAGEN 3 - */
 
+.seccion1__dino2 {
+    grid-column: span 2;
+    grid-row: 3/4;
 
-.dino2 {
-
-
-    grid-row-start: 3;
-    grid-row-end: 3;
-
-
-    align-content: center;
-    justify-content: center;
-
+    width: 97.8vw;
 
 }   
 
+.seccion1__dino2 img {
+
+    width: 100%;
+    height: 100%;
+    border-radius: 1vh;
+}
 
 
+
+
+
+/*  BLOQUE DE LA SEGUNDA SECCION :D */
+
+
+.seccion2 {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: auto;
+    background-color: black;
+    border-radius: 1vh;
+
+    width: auto;
+    gap: 1.1vw;
+    padding: 2vh;
+
+}
+
+.seccion2 > div {  
+    display: flex;
+    justify-content: center;
+
+}
+
+
+/*  IMAGENES DE LA SEGUNDA SECCION DX */
+
+
+/* IMAGEN 1 - */
+
+.seccion2__texto1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.seccion2__texto1 img {
+
+    width: 100%;
+    height: 100%;
+    border-radius: 1vh;
+}
+
+
+/* IMAGEN 2 - */
+
+.seccion2__dino_verde {
+
+    grid-column: 1/1;
+    grid-row: 2/2;
+}
+
+.seccion2__dino_verde img {
+
+    width: 100%;
+    height: 100%;
+    border-radius: 1vh;
+}
+
+
+
+
+/* IMAGEN 3 - */
+
+
+.seccion2__collage {
+
+    grid-column: 2/2;
+    grid-row: span 2;
+}
+
+.seccion2__collage img {
+    width: 100%;
+    height: 100%;
+    border-radius: 1vh;
+}
+
+
+/*Desarrollado por : AuraCamilaPicoAraque - C.C:1097498480 */
